@@ -13,3 +13,7 @@ Après le push, deux workflows se sont exécutés automatiquement : `Hello World
 ## Question 11
 
 Après avoir introduit le bug dans `model.py` puis fait un push, le workflow de tests a échoué. Le test `test_predict_positive` ne passe plus, car la fonction retourne `positif` au lieu de `positive`. GitHub Actions permet donc de détecter automatiquement cette régression.
+
+## Question 14
+
+Après le push, le workflow de tests a lancé plusieurs exécutions du même job avec différentes versions de Python : 3.8, 3.9 et 3.10. J'ai constaté que GitHub Actions exécute ces jobs automatiquement grâce à la matrice, ce qui permet de vérifier la compatibilité du code sur plusieurs versions.
