@@ -17,3 +17,7 @@ Après avoir introduit le bug dans `model.py` puis fait un push, le workflow de 
 ## Question 14
 
 Après le push, le workflow de tests a lancé plusieurs exécutions du même job avec différentes versions de Python : 3.8, 3.9 et 3.10. J'ai constaté que GitHub Actions exécute ces jobs automatiquement grâce à la matrice, ce qui permet de vérifier la compatibilité du code sur plusieurs versions.
+
+## Question 16
+
+J'ai ajouté une docstring dans le code puis relancé le workflow de lint. Le workflow a réussi, ce qui montre que le code ne contient pas d'erreurs Python critiques détectées par `flake8`.
