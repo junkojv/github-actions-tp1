@@ -33,3 +33,7 @@ Après le push, le workflow `Docker Build` est apparu dans l'onglet Actions. Il 
 ## Question 27
 
 Après le push, le workflow `Evaluate Model` s'est exécuté et a généré un artifact nommé `model-metrics`. En le téléchargeant, j'ai constaté qu'il contient un fichier `metrics.json` avec les métriques simulées du modèle, comme l'accuracy, la precision, le recall et le f1-score.
+
+## Question 33
+
+Dans l'onglet Actions, j'ai pu déclencher manuellement le workflow `Manual Workflow`. GitHub m'a demandé de choisir un environnement parmi `dev`, `staging` et `prod`. Une fois lancé, le workflow a affiché l'environnement sélectionné puis a exécuté les tests.
