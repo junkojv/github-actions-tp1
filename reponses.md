@@ -25,3 +25,7 @@ J'ai ajouté une docstring dans le code puis relancé le workflow de lint. Le wo
 ## Question 18
 
 Lors de l'ouverture de la Pull Request, le workflow `PR Comment` s'est exécuté automatiquement. Il a ajouté un commentaire par `github-actions[bot]` pour remercier de la PR et indiquer que les tests automatisés allaient être lancés.
+
+## Question 24
+
+Après le push, le workflow `Docker Build` est apparu dans l'onglet Actions. Il a construit l'image Docker puis exécuté le conteneur pour tester le programme. Le workflow a réussi, ce qui montre que l'image est bien construite et que le code fonctionne dans un environnement Docker.
