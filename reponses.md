@@ -37,3 +37,7 @@ Après le push, le workflow `Evaluate Model` s'est exécuté et a généré un a
 ## Question 33
 
 Dans l'onglet Actions, j'ai pu déclencher manuellement le workflow `Manual Workflow`. GitHub m'a demandé de choisir un environnement parmi `dev`, `staging` et `prod`. Une fois lancé, le workflow a affiché l'environnement sélectionné puis a exécuté les tests.
+
+## Question 36
+
+Après avoir créé et poussé le tag `v1.0.0`, le workflow `Create Release` s'est exécuté automatiquement. Dans l'onglet Releases, j'ai constaté qu'une nouvelle release a été créée avec le tag `v1.0.0` et le nom `Release v1.0.0`.
