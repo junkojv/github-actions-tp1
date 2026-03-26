@@ -29,3 +29,7 @@ Lors de l'ouverture de la Pull Request, le workflow `PR Comment` s'est exécuté
 ## Question 24
 
 Après le push, le workflow `Docker Build` est apparu dans l'onglet Actions. Il a construit l'image Docker puis exécuté le conteneur pour tester le programme. Le workflow a réussi, ce qui montre que l'image est bien construite et que le code fonctionne dans un environnement Docker.
+
+## Question 27
+
+Après le push, le workflow `Evaluate Model` s'est exécuté et a généré un artifact nommé `model-metrics`. En le téléchargeant, j'ai constaté qu'il contient un fichier `metrics.json` avec les métriques simulées du modèle, comme l'accuracy, la precision, le recall et le f1-score.
