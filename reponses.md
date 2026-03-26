@@ -21,3 +21,7 @@ Après le push, le workflow de tests a lancé plusieurs exécutions du même job
 ## Question 16
 
 J'ai ajouté une docstring dans le code puis relancé le workflow de lint. Le workflow a réussi, ce qui montre que le code ne contient pas d'erreurs Python critiques détectées par `flake8`.
+
+## Question 18
+
+Lors de l'ouverture de la Pull Request, le workflow `PR Comment` s'est exécuté automatiquement. Il a ajouté un commentaire par `github-actions[bot]` pour remercier de la PR et indiquer que les tests automatisés allaient être lancés.
